@@ -1,0 +1,35 @@
+body {
+    background-image: url(https://data.whicdn.com/images/353072093/original.gif);
+    background-repeat: no-repeat;
+    background-size: 2010px 1050px;
+}
+
+h1 {
+    color: white;
+    margin-top: 150px;
+    margin-left: 890px;
+    font-size: 35px;
+}
+
+select {
+    font-size: 16px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    margin-left: 900px;
+    grid-template-columns: repeat(10, 1fr);
+    color: white;
+    font-size: 23px;
+}
+
+
+.box{
+    height: 35px;
+    text-align: center;
+}
+
+#header{
+    grid-column: 1 / 11;
+}

@@ -1,0 +1,55 @@
+body {
+    background-image: url(https://data.whicdn.com/images/317894435/original.gif);
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 800px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 15px;
+    background-color: lightgray;
+    font-size: 35px;
+    border-radius: 15px;
+}
+
+#firstOp {
+    text-align: center;
+    margin-top: 50px;
+    background-color: teal;
+    font-size: 35px;
+    border-radius: 15px;
+    padding: 5px 5px;
+    
+}
+
+#secondOp {
+    text-align: center;
+    margin-top: 30px;
+    background-color: lightcoral;
+    font-size: 35px;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+#thirdOp {
+    text-align: center;
+    margin-top: 30px;
+    background-color: maroon;
+    font-size: 35px;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+#grid{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: space-around;
+}
+
+input {
+    width: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
