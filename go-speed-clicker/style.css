@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://data.whicdn.com/images/304059512/original.gif);
+    background-size: 850px 1000px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+#button{
+    display: grid;
+    text-align: center;
+    color: white;
+    background-image: url(https://data.whicdn.com/images/317842650/original.gif);
+    background-size: cover;
+    font-size: 70px;
+    margin-left: 46%;
+    margin-top: 5%;
+}
+
+#startBtn{
+    color: white;
+    font-size: 30px;
+    width: 93px;
+    margin-left: 45.5%;
+    text-align: center;
+    background-image: url(https://data.whicdn.com/images/365178651/original.gif);
+    background-size: cover;
+}
+
+#resetBtn{
+    color: white;
+    font-size: 30px;
+    width: 93px;
+    text-align: center;
+    background-image: url(https://data.whicdn.com/images/365178651/original.gif);
+    background-size: cover;
+}
