@@ -1,0 +1,69 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 20px;
+    margin-top: 10%;
+    margin-left: 4%;
+    display: inline-block;
+}
+
+#box1{
+    transition: background-color 500ms ease-in 500ms;
+}
+
+#box1:hover{
+    background-color: red;
+}
+
+
+#box2{
+    transition: border 1s ease-out 100ms, height 1s ease-out, width 1s ease-out, background-color 1s ease-out 200ms;
+
+}
+
+#box2:hover{
+    border: 4px dotted lightslategray;
+    height: 250px;
+    width: 250px;
+    background-color: lightgreen;
+}
+
+#box3{
+    transition: background-color 1s ease-in-out 200ms, border-radius 250ms linear 1s, box-shadow 250ms linear 250ms;
+}
+
+#box3:hover {
+    background-color: palevioletred;
+    border-radius: 100px;
+    box-shadow: 50%;
+}
+
+#box4{
+    transition: background-color 550ms ease-out 500ms, opacity 1s linear 500ms;
+}
+
+#box4:hover{
+    background-color: darkmagenta;
+    opacity: 15%;
+}
+
+#box5{
+    transition: background-color 2ms linear 1s, padiing 3ms linear, ease-out 650ms;
+}
+
+#box5:hover{
+    background-color: yellow;
+    padding-top: 5%;
+}
+
+#box6{
+    transition: background-color 500ms linear 250ms, padding 1s linear ease-out 600ms, border 500ms linear, background-image ease-out 850ms;
+}
+
+#box6:hover{
+    padding: 20px;
+    border: 10px solid lightseagreen;
+    background-image: url(https://data.whicdn.com/images/366059113/original.gif);
+    background-size: contain;
+}
