@@ -166,7 +166,7 @@ getList()
 
 
 function clear(){
-    const listDiv =document.getElementById("list")
+    const listDiv = document.getElementById("list")
     while(listDiv.firstChild){
         listDiv.removeChild(listDiv.firstChild)
     }
